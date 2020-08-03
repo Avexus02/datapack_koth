@@ -1,5 +1,5 @@
 effect clear @a glowing
-execute as @p[distance = ..4] at @s run function koth:events/add_point
+execute as @p[distance = ..4] at @s run function koth:events/players/add_point
 
 function koth:events/spawn_emerald
 
