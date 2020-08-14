@@ -1,0 +1,1 @@
+summon snowball ~ ~ ~ {Item:{id:"minecraft:air", Count: 1b}, NoGravity: 1b, Tags:["koth.blizzard_snowball", "koth.blizzard_snowball_temp"]}

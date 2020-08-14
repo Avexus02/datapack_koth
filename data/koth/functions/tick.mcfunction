@@ -11,6 +11,7 @@ execute as @e[type = firework_rocket, tag = !rocket_checked] store result score 
 scoreboard players remove @e[type = firework_rocket, tag = !rocket_checked] koth.fw.lifetime
 tag @e[type = firework_rocket] add rocket_checked
 execute as @e[type = firework_rocket, tag = rocket_checked] at @s run function koth:behaviors/blizzard_rocket
+execute as @e[type = snowball, tag = koth.blizzard_snowball] at @s run function koth:behaviors/blizzard_snowball
 
 execute as @e[type = item, tag = !item_processed] run data modify entity @s Owner set from entity @s Thrower
 execute as @e[type = item, tag = !item_processed] run data modify entity @s PickupDelay set value 0
