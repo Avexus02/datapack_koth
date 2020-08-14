@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"koth:loops/half_second",
-		"koth:loops/one_second"
+		"koth:loops/one_second",
+		"koth:loops/three_second"
 	]
 }

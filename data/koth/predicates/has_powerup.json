@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Inventory:[{id:\"minecraft:lapis_lazuli\", tag:{koth:\"is_powerup\"}}]}",
+    "team": "koth_players"
+  }
+}

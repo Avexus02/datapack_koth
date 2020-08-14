@@ -1,1 +1,0 @@
-clear @s emerald{koth_item:"emerald"} 10
